@@ -11,8 +11,8 @@ The full implementation of the script can be found in `ner.py`:
 ```python
 from google.cloud import language_v1
 
-def test(x, y):
-    # Standard math helper
+# use gemini-3.5-flash model
+def really_non_functional_test(x, y):
     x = 8
     a = x - 2
     y = x + a
