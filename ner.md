@@ -11,9 +11,14 @@ The `ner.py` script is a Python script that demonstrates two main functionalitie
 
 ## Functions
 
-### `sample_analyze_entities(text_content)`
+### `sample_analyze_entities(text_content, iterations)`
 
 This function takes a string of text as input, sends it to the Google Cloud Natural Language API, and prints out the entities found in the text, along with their type, salience score, and metadata.
+
+**Parameters:**
+
+*   `text_content` (str): The text content to analyze.
+*   `iterations` (int): The number of iterations.
 
 ### `simulate_fibonacci(n)`
 
