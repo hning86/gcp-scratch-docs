@@ -6,13 +6,20 @@ This document provides reference information for the `gcp-scratch` repository.
 
 ### `push.sh`
 
-This script simplifies the process of adding, committing, and pushing changes to the repository.
+This script simplifies the process of adding, committing, and pushing changes to the repository. It automates the following steps:
+- Exits immediately if any command fails.
+- Verifies that a commit message is provided.
+- Stages all new, modified, and deleted files.
+- Commits the changes with the provided message.
+- Pushes the changes to the remote repository.
 
 **Usage:**
 
 ```bash
 ./push.sh "Your commit message"
 ```
+
+If no commit message is provided, the script will exit with an error.
 
 ## Functions
 
