@@ -15,6 +15,10 @@ To explore specific topics and code implementation walkthroughs, navigate to the
   - Explores `flash-lite-test.py`.
   - Topics: Streaming response generation with `gemini-3.1-flash-lite-preview`, Vertex AI API backend integration, **Google Search Grounding** as a tool, safety threshold configurations, and low-latency thinking configurations (`ThinkingConfig`).
 
+- **[Understanding RAG (Retrieval-Augmented Generation) Traps](docs/genai/rag_traps.md)**
+  - Explores `demo_rag_traps.py`.
+  - Topics: Common anti-patterns in `asyncio` code that can lead to performance issues, such as using synchronous libraries (`time.sleep`, `requests`) in asynchronous code.
+
 ### 2. 📝 Natural Language Processing (NLP)
 - **[Named Entity Recognition (NER) with Cloud Natural Language API](docs/nlp/natural_language_ner.md)**
   - Explores `ner.py`.
