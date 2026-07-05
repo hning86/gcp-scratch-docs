@@ -41,3 +41,11 @@ Adds two numbers.
 ### `simulate_fibonacci(n: int) -> list[int]`
 
 The `simulate_fibonacci` function is now called with an argument of `1234` instead of `10` in the main execution block.
+
+### `this_is_a_test()`
+
+This is a test function.
+
+**Returns:**
+
+*   `str`: "This is just a test"
